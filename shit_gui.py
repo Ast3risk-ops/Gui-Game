@@ -23,9 +23,10 @@ def BEPIS():
         e()
     elif q1 == "yup":
         app.info("Congrats!", "You did it!")
-        right = Text(app, text="Huh, guess you're right...", size=10, font="Comic Sans MS", color="black")
+        Black=Text(app, text="Huh, guess you're right...", size=10, font="Comic Sans MS", color="black")
         White.destroy()
         bepis.destroy()
+        Black.destroy()
         BONER()
 
 
@@ -37,7 +38,6 @@ def BONER():
         if dec:
             Text(app, text="Why thank you!", font="Comic Sans MS", size="20")
             bonerc.destroy()
-            right.destroy()
 
 
 app = App(title="What the heck is this?", width=6, height=9, layout='auto')
