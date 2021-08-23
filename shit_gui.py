@@ -23,10 +23,10 @@ def BEPIS():
         e()
     elif q1 == "yup":
         app.info("Congrats!", "You did it!")
-        Black=Text(app, text="Huh, guess you're right...", size=10, font="Comic Sans MS", color="black")
+        Yee = Text(app, text="Huh, guess you're right...", size=10, font="Comic Sans MS", color="black")
         White.destroy()
         bepis.destroy()
-        Black.destroy()
+        Yee.destroy()
         BONER()
 
 
