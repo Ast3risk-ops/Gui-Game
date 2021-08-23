@@ -33,7 +33,9 @@ def BONER():
     bonerc = ButtonGroup(app, options=[["What", "W"], ["Am", "A"], ["I", "I"], ["Doing?", "D"]], selected="W")
     what = app.question("Where am I?", "Who am I?", initial_value="What am I?")
     if what == "Why?":
-        app.yesno("Question...", "Am I decent?")
+        dec = app.yesno("Question...", "Am I decent?")
+        if dec == "Yes":
+            Text(app, text="Why thank you!", font="Comic Sans MS", size="20")
 
 
 app = App(title="What the heck is this?", width=6, height=9, layout='auto')
