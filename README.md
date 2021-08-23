@@ -3,10 +3,10 @@
  Some game
 
  # Installation
-You will need Python 3.9+ and guizero. You can install it by running this command:
+You will need Python 3.9+ and guizero. You can install it by openeing a terminal and  running this command:
 
  ### Windows:
-
+Ricght-click the start button and click "Windows Powershell"
  ```bash
  pip install guizero
  ```
