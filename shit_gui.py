@@ -39,7 +39,7 @@ def BONER():
             Text(app, text="Why thank you!", font="Comic Sans MS", size="20")
             bonerc.destroy()
         else:
-            Text(app, text="Fuck You", font="Arial", size=30)
+            Text(app, text="Yuck Fou", font="Arial", size=30)
             bonerc.destroy()
             e()
 
@@ -50,6 +50,7 @@ bepis.bg = "green"
 White = Text(app, text="This button should be white!", size=10, font="Arial", color="black")
 bye = PushButton(app, e, text="Quit", align="right")
 bye.bg = "red"
+name = app.question("Name:", "What is your name?")
 app.set_full_screen()
 app.info("IMPORTANT!", "Press Esc. to exit full screen")
 app.display()
