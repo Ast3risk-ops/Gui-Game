@@ -34,7 +34,7 @@ def BONER():
     what = app.question("Where am I?", "Who am I?", initial_value="What am I?")
     if what == "Why?":
         dec = app.yesno("Question...", "Am I decent?")
-        if dec == "Yes":
+        if dec == True:
             Text(app, text="Why thank you!", font="Comic Sans MS", size="20")
 
 
