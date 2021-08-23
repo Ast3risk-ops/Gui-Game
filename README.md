@@ -20,6 +20,8 @@ Ricght-click the start button and click "Windows Powershell"
  ```
 
  ### MacOS and Linux
+ On mac os go to launchpad: search "Terminal" and click on Terminal. Then type:
+ On linux open your system's terminal from the taskbar and type:
 
  ```bash
  pip3 install guizero
