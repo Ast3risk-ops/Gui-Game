@@ -29,3 +29,5 @@ Ricght-click the start button and click "Windows Powershell"
  # Run script 
 
 Open your file explorer and right click on shit_gui.py and choose "Edit with IDLE 3.9"
+<img width="422" alt="explorer_3aokuh1NpS" src="https://user-images.githubusercontent.com/83875983/130490188-3d4768bb-e45b-4525-b2ea-9caaada00d24.png">
+
