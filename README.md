@@ -26,3 +26,6 @@ Ricght-click the start button and click "Windows Powershell"
  ```bash
  pip3 install guizero
  ```
+ # Run script 
+
+Open your file explorer and right click on shit_gui.py and choose "Edit with IDLE 3.9"
