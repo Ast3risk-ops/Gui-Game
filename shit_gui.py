@@ -39,9 +39,7 @@ def BONER():
             Text(app, text="Why thank you!", font="Comic Sans MS", size="20")
             bonerc.destroy()
         else:
-            Text(app, text="Yuck Fou", font="Arial", size=30)
-            bonerc.destroy()
-            e()
+            Whyy = app.question("?", "Then what am I?", "Worthless")
 
 
 app = App(title="What the heck is this?", width=6, height=9, layout='auto')
