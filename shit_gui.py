@@ -40,6 +40,8 @@ def BONER():
             bonerc.destroy()
         else:
             Whyy = app.question("?", "Then what am I?", "Worthless")
+            if Whyy == "Worth":
+                Text(app, text="Whee", font="Times New Roman", size=30)
 
 
 app = App(title="What the heck is this?", width=6, height=9, layout='auto')
