@@ -40,8 +40,9 @@ def BONER():
     bonerc = ButtonGroup(app, options=[["What", "W"], ["Am", "A"], ["I", "I"], ["Doing?", "D"]], selected="W")
     what = app.question("Where am I?", "Who am I?", initial_value="What am I?")
     if what == "Why?":
+        # The story path splits here. If you say Why you must say no next.
+        # Saying yes does nothing. Or you can say anything else and you can get ending 1
         dec = app.yesno("Question...", "Am I decent?")
-        # This is how you get the 2 diffrent endings. The story path splits here.
         if dec == False:
             app.info("Congrats", "Data sent succesfully!")
             app.error("ERROR", "An unknown error occured")
