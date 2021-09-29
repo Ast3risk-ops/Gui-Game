@@ -1,5 +1,6 @@
 from guizero import App, Text, PushButton, ButtonGroup
 from sys import exit
+from time import sleep
 from winsound import *
 
 
@@ -35,7 +36,17 @@ def BONER():
     what = app.question("Where am I?", "Who am I?", initial_value="What am I?")
     if what == "Why?":
         dec = app.yesno("Question...", "Am I decent?")
-        if dec:
+        if dec == False:
+            app.info("Congrats", "Data sent succesfully!")
+            app.error("ERROR", "An unknown error occured")
+            app.info("Goodbye", "Shutting down...")
+            app.destroy()
+            input("Does this work?")
+            print("Oh good, it works!")
+            sleep(2)
+            print("There's more to this app than you think...")
+            sleep(2)
+        elif dec:
             Text(app, text="Why thank you!", font="Comic Sans MS", size="20")
             bonerc.destroy()
         else:
