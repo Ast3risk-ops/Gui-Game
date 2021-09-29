@@ -4,7 +4,7 @@
  Some game
 
  # Installation
-You will need Python 3.9+ and guizero. You can install it by openeing a terminal and  running this command:
+You will need Python 3.9+ and guizero. You will also need the python idle. [get it here](https://www.python.org/ftp/python/3.9.7/python-3.9.7-amd64.exe). This will install the 64-bit Windows Installer. You can install guizero by openeing a terminal and  running this command:
 
  ### Windows:
 Ricght-click the start button and click "Windows Powershell"
