@@ -2,14 +2,17 @@ from guizero import App, Text, PushButton, ButtonGroup
 from sys import exit
 from time import sleep
 from winsound import *
+# winsound is used is for playing the .wav file included with the program
 
 
 def e():
+    """Kills the app and script"""
     app.destroy()
     exit(["END"])
 
 
 def BEPIS():
+    """ Function that runs when you press the big green button """
     q1 = app.question("?", "?", "Type Something...")
     if q1 == "" or q1 == "Type Something...":
         app.warn("WARNING!", "You didn't type anything!, Face the consequences...")
@@ -23,6 +26,7 @@ def BEPIS():
                   "ERR_BUTT_JIMMgedygdetdtefdtedtedftefdtefdtefdtefdtefdetdfetdyehdyegvfrgfyrhHDDHDYDGEYDGEYDECMFMVVNFHCGETFDEFDTEDTDFEDHEFURHGURHFURHFURHFRUFURHFRKKYHJYIHJYIHJIYJHIYJHYIHJIJHAFAGAGAGAGAGGAGAHDHRFUHYGEYGDEYGEDYGEDYGEDYGEDhshshgfgfr")
         e()
     elif q1 == "yup":
+        # next stage
         app.info("Congrats!", "You did it!")
         Yee = Text(app, text="Huh, guess you're right...", size=10, font="Comic Sans MS", color="black")
         White.destroy()
@@ -32,10 +36,12 @@ def BEPIS():
 
 
 def BONER():
+    """Progresses to the nest game stage"""
     bonerc = ButtonGroup(app, options=[["What", "W"], ["Am", "A"], ["I", "I"], ["Doing?", "D"]], selected="W")
     what = app.question("Where am I?", "Who am I?", initial_value="What am I?")
     if what == "Why?":
         dec = app.yesno("Question...", "Am I decent?")
+        # This is how you get the 2 diffrent endings. The story path splits here.
         if dec == False:
             app.info("Congrats", "Data sent succesfully!")
             app.error("ERROR", "An unknown error occured")
