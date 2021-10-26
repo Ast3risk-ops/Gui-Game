@@ -48,11 +48,6 @@ def BONER():
             app.error("ERROR", "An unknown error occured")
             app.info("Goodbye", "Shutting down...")
             app.destroy()
-            input("Does this work?")
-            print("Oh good, it works!")
-            sleep(2)
-            print("There's more to this app than you think...")
-            sleep(2)
         elif dec:
             Text(app, text="Why thank you!", font="Comic Sans MS", size="20")
             bonerc.destroy()
